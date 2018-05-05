@@ -1,5 +1,5 @@
 {
-  "name": "ASASAC_Newsletter",
+  "name": "asasac-newsletter",
   "version": "1.0.0",
   "description": "Newsletter template for ASASAC",
   "main": "index.js",
@@ -7,11 +7,11 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "node-watch": "^0.5.8",
-    "nodemon": "^1.17.3",
-    "reload": "^2.2.2"
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1"
   },
   "scripts": {
-    "start": "node ./main.js"
+    "start": "node main.js gulp serve",
+    "start2": "node main.js"
   }
 }
