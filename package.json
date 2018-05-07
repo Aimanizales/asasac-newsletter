@@ -11,7 +11,6 @@
     "gulp": "^3.9.1"
   },
   "scripts": {
-    "start": "node main.js gulp serve",
-    "start2": "node main.js"
+    "start": "gulp"
   }
 }
